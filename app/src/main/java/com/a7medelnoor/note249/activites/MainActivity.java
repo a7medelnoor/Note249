@@ -1,4 +1,4 @@
-package com.a7medelnoor.note249;
+package com.a7medelnoor.note249.activites;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.a7medelnoor.note249.R;
+import com.a7medelnoor.note249.activites.CreateNoteActivity;
 
 public class MainActivity extends AppCompatActivity {
     public static final int REQUEST_CODE_ADD_NOTE = 1;
