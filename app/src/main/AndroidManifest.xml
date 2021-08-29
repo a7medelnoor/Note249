@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Note249">
         <activity
-            android:name=".CreateNoteActivity"
+            android:name=".activites.CreateNoteActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activites.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden">
