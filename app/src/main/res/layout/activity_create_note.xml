@@ -54,7 +54,7 @@
                 android:layout_marginTop="@dimen/_15sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@null"
-                android:fontFamily="@font/Montserrat_Bold"
+                android:fontFamily="@font/montserrat_bold"
                 android:hint="@string/note_title"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
@@ -70,7 +70,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/app_name"
-                android:fontFamily="@font/Montserrat_Regular"
+                android:fontFamily="@font/montserrat_regular"
                 android:textColor="@color/colorIcons"
                 android:textSize="@dimen/_10ssp"
                 app:layout_constraintEnd_toEndOf="@id/inputNoteTitle"
@@ -85,7 +85,7 @@
                 android:layout_marginTop="@dimen/_15sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@null"
-                android:fontFamily="@font/Montserrat_Medium"
+                android:fontFamily="@font/montserrat_medium"
                 android:hint="@string/note_subtitle"
                 android:importantForAutofill="no"
                 android:includeFontPadding="false"
@@ -118,7 +118,7 @@
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:layout_marginBottom="@dimen/_15sdp"
                 android:background="@null"
-                android:fontFamily="@font/Montserrat_Regular"
+                android:fontFamily="@font/montserrat_regular"
                 android:gravity="top"
                 android:hint="@string/type_note_here"
                 android:importantForAutofill="no"
@@ -132,5 +132,6 @@
                 app:layout_constraintTop_toBottomOf="@id/inputNoteSubTitle" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+    <include layout="@layout/layout_miscellaneous"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
